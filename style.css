@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto Condensed';
+    color: #c4dfe6;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #003b46;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contenedor {
+    background: linear-gradient(90deg, rgba(7, 87, 91, 1) 50%, rgba(102, 165, 173, 1) 50%);
+    width: 600px;
+    flex-direction: row;
+    display: flex;
+    height: 230px;
+    align-items: center;
+}
+
+#izq {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    align-content: space-around;
+
+}
+
+#der {
+    height: 100%;
+    width: 50%;
+    display: grid;
+    align-content: space-around;
+}
+
+#locacion {
+     
+    font-size: 7vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#ciudad{
+  
+    font-size: 4vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#dato{
+   
+    font-size: xx-large;
+     
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#titulo{
+    display: flex;
+    font-size: x-large;
+    padding: 5px;
+}
+@media (max-width:500px){
+    #contenedor {
+        flex-direction: column;
+        height: auto;
+        background: rgba(7, 87, 91, 1);
+    }
+    #locacion{
+        font-size: 4vh;
+    }
+    
+}
